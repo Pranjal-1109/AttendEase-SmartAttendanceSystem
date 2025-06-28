@@ -23,7 +23,8 @@ CSV_FILE = 'attendance.csv'
 # Ensure face upload directory exists
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# Home Route
+# Main Page
+# Home Route 
 @app.route('/')
 def home():
     return render_template('index.html')
