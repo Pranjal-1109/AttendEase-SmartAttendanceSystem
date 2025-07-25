@@ -11,6 +11,7 @@ FACES_DIR = 'static/faces'
 if not os.path.exists(FACES_DIR):
     os.makedirs(FACES_DIR)
 
+#app
 
 app = Flask(__name__)
 
