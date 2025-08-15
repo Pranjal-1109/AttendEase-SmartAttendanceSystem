@@ -11,7 +11,7 @@ FACES_DIR = 'static/faces'
 if not os.path.exists(FACES_DIR):
     os.makedirs(FACES_DIR)
 
-#app
+#apppp
 
 app = Flask(__name__)
 
@@ -143,3 +143,4 @@ def report():
 if __name__ == '__main__':
     app.run(debug=True)
  
+
